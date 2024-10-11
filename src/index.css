@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding:0;
+    margin:0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: Lato;
+    background-color: #373434;
+}
+
+.main-container{
+    text-align: center;
+    position: relative;
+    top:40px;
+    height:350px;
+    margin: 0 auto;
+    width:250px;
+
+}
+
+img{
+    position: relative;
+    width: 200px;
+    top:3px;
+    
+}
+
+h1,h2{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 15px;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 300;
+    color:#d2a241
+}
+
+#social-media{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    top: 12px;
+    width:180px;
+    margin: 0 auto;
+}
+
+#email-button{
+   
+    background-color: #fff;
+}
+#linkedin-btn{
+   color:#fff;
+    background-color: #0a66c2;
+}
+#linkedin-btn:hover{
+    color:#0a66c2;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+.btn{
+    padding: 3px;
+    width: 80px;
+    height:30px;
+    border-radius: 10px;
+    border:none;
+    font-size: 13px;
+    font-weight: 100;
+    cursor: pointer;
+}
+#email-btn:hover{
+    color:#fff;
+    background-color: #000;
+    border:1px solid #fff;
+    
+}
+
+.fa-envelope,.fa-linkedin{
+    margin-right: 5px;
+}
+
+.about{
+    margin: 0 auto;
+    background-color: #000;
+    width:250px;
+    height:140px;
+    position: relative;
+    color:#fff;
+    font-size: 13px;
+    top:20px;
+
+}
+
+#about-par{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 10px;
+    padding-right: 15px;
+}
+
+#about-title{
+    padding-left: 20px;
+    line-height: 10px;
+}
+
+.interests{
+    margin: 0 auto;
+    width:250px;
+    height:100px;
+    position: relative;
+    top:0px;
+    
+    background-color: #000;
+}
+
+#interests-title, #interests-par{
+    text-align: left;
+    color:#fff;
+    padding-left: 20px;
+}
+
+#interests-par{
+    font-size: 13px;
+    margin-top: 10px;
+    padding-right: 10px;
+
+}
+
+.social{
+    width:250px;
+    padding-top: 10px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #000;
+    flex-direction: row;
+    justify-content: center;
+    height:40px;
+    
+}
+.fa-xing, .fa-github{
+    color:#fff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.fa-xing:hover, .fa-github:hover{
+    color:red;
+    margin-left: 10px;
+    cursor: pointer;
+}
